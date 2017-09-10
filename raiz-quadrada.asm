@@ -27,7 +27,7 @@
                # plus one in the result
                add $t0, $t0, 1
 
-               # conditional greater or equal to zero
+               # conditional less than zero
                bltz $t0, sqtr
                
                # rewind
